@@ -105,9 +105,9 @@ function cropImage() {
 function draw() {
   var canvas = document.getElementById("canvas");
   var ctx = canvas.getContext("2d");
-  ctx.font = " 28px Roboto";
+  ctx.font = " 70px Roboto";
   ctx.textAlign = "center";
-  ctx.fillStyle = 'white';
+  ctx.fillStyle = 'black';
 
   // Draw slice
   ctx.drawImage(
