@@ -23,8 +23,8 @@ function getImage() {
   newImg.id = "myGreatImage";
   // uploadedImageDiv.style.border = "4px solid #FCB514";
   // uploadedImageDiv.innerHTML
-  uploadedImageDiv.style.width = " 250px";
-  uploadedImageDiv.style.height = "300px";
+  uploadedImageDiv.style.width = " 775px";
+  uploadedImageDiv.style.height = "810px";
   uploadedImageDiv.appendChild(newImg);
   myGreatImage = document.getElementById("myGreatImage");
 
@@ -58,7 +58,7 @@ function processImage() {
     // maxContainerWidth   : 200,
     // maxCanvasWidth      : 200,
     // maxCanvasHeight     : 200,
-    aspectRatio:  250/320,  
+    aspectRatio:  775/810,  
     autoCropArea: 1,
     background: true,
     movable: false,
@@ -112,10 +112,10 @@ function draw() {
   // Draw slice
   ctx.drawImage(
     document.getElementById("croppedImage"),
-    661.63,
-    307.38,
-    250,
-    300
+    285,
+    1359,
+    775,
+    810
     // 900,
     // 0,
     // 1500,
@@ -124,7 +124,7 @@ function draw() {
 
   // Draw frame
   ctx.drawImage(document.getElementById("frame"), 0, 0);
-  ctx.fillText(document.getElementById("username").value, 787, 662);
+  ctx.fillText(document.getElementById("username").value, 696, 2272);
 }
 
 // downlad function
