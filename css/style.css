@@ -2,11 +2,11 @@ body {
   font-family: "Roboto", sans-serif;
   font-family: 'Manjari', sans-serif;
   /* background-color: #f8fafb;  */
-  background: linear-gradient(-45deg, #f457ac, #ff0089);
+  background: linear-gradient(-45deg, #ff0000, #a40000);
 }
 .btn-hover.color-2 {
-  background-image: linear-gradient(to right, #ff0089, #f457ac);
-  box-shadow: 0 4px 15px 0 #ff0089;
+  background-image: linear-gradient(to right, #ff0000, #a40000);
+  box-shadow: 0 4px 15px 0 #ff0000;
 }
 
 
@@ -129,15 +129,15 @@ h2 {
   .social-login a:hover {
     color: #fff; }
   .social-login a.facebook {
-    background-image: linear-gradient(to right, #ff0089, #f457ac); }
+    background-image: linear-gradient(to right, #ff0000, #a40000); }
     .social-login a.facebook:hover {
       background: #979797; }
   .social-login a.twitter {
-    background-image: linear-gradient(to right, #ff0089, #f457ac);}
+    background-image: linear-gradient(to right, #ff0000, #a40000);}
     .social-login a.twitter:hover {
       background:#979797 }
   .social-login a.google {
-    background-image: linear-gradient(to right, #ff0089, #f457ac); }
+    background-image: linear-gradient(to right, #ff0000, #a40000); }
     .social-login a.google:hover {
       background:#979797;}
 
