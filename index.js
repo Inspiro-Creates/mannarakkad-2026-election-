@@ -48,8 +48,8 @@ function processImage() {
     // minCropBoxWidth:200,
     // minCropBoxHeight:200,
     //cropBoxMovable: false,
-    // minContainerHeight  : 400,
-    // minContainerWidth   : 400,
+    // minContainerHeight  : 300,
+    // minContainerWidth   : 300,
     // minCanvasWidth      : 200,
     // minCanvasHeight     : 200,
     // maxCropBoxWidth     : 100,
@@ -76,7 +76,7 @@ function processImage() {
     //cropBoxResizable: false,
     // dragMode: "move",
     // minCropBoxWidth: 100,
-    // minCropBoxHeight: 156,
+    // minCropBoxHeight: 100,
     viewMode: 2,
 
     data: {
