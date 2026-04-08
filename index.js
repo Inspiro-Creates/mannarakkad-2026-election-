@@ -80,8 +80,8 @@ function processImage() {
     viewMode: 2,
 
     data: {
-      width: 1025,
-      height:1025,
+      width: 1440,
+      height:1440,
     },
     crop(event) {
       console.log(
@@ -112,10 +112,10 @@ function draw() {
   // Draw slice
   ctx.drawImage(
     document.getElementById("croppedImage"),
-    216,
-    367,
-    650,
-    650
+    73.25,
+    194.63,
+    870,
+    870
     // 900,
     // 0,
     // 900,
